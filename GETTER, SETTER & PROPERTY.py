@@ -19,6 +19,8 @@ class Cofre_Eletronico:
             self.__estado = novo_estado #cofre.set_estado("aberto")
             
     #@PROPERTY - Forma moderna de utilizar GET/SET
+    #É importante que o GET/SET de um atributo possuam o mesmo nome
+    
     @property #para GETTER
     def estado(self):
         return self.__estado #cofre1.estado
